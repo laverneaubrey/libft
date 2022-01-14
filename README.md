@@ -22,7 +22,7 @@ int ft_tolower(int c);
 int ft_toupper(int c);
 int ft_atoi(const char *nptr);______________возвращает число, вытащенное из строки
 
-char *ft_itoa(int n);                  [libft.pdf](https://github.com/laverneaubrey/libft/files/7869288/libft.pdf)
+char *ft_itoa(int n);                  
 возвращает замалоченную строку с числом n
 
 int ft_memcmp(const void *s1, const void *s2, size_t n);______________сравнивает n байт участков памяти. возвращает 0 если участки идентичны.
